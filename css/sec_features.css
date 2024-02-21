@@ -1,0 +1,28 @@
+.sec_features {             padding-top: 40px;
+                            padding-bottom: 40px;
+                            background-color: var(--white_grey)}
+
+.sec_features h1:hover,
+.sec_features h2:hover,
+.sec_features h3:hover,
+.sec_features h4:hover {	text-decoration: underline;}
+
+.col_4_story    {       display: block;}
+
+.col_4_story_text h3 {  text-transform: uppercase; 
+                        font-size: 20px; 
+                        color: var(--black_main);
+                        font-weight: 600;
+                        line-height: 25px;
+                        margin-top: 10px;}
+
+.col_4_story_text h5 {   text-transform:uppercase; 
+                        font-size: 14px; 
+                        color: var(--black_body);
+                        font-weight: 500;
+                        margin-top: 10px;
+                        margin-bottom: 10px;}
+
+.col_4_story img {      height: 263px;
+                        width: 100%;
+                        object-fit: cover;}

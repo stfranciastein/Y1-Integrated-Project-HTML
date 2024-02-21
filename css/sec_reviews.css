@@ -1,0 +1,25 @@
+.sec_reviews {          padding-top: 40px;
+                        padding-bottom: 40px;}
+
+.col_8_story_rev {      display: flex;}
+
+.col_8_story_rev img {  height: 480px;
+                        width: 480px;}
+
+.col_8_story_rev_text { margin-left: 15px;}
+
+.col_8_story_rev h1 {   font-size: 36px;
+                        text-transform: uppercase;
+                        color: var(--black_main);
+                        line-height: 53px;
+                        font-weight: 700;}
+
+.col_8_story_rev p  {   font-size: 16px;
+                        color: var(--black_text);
+                        padding-bottom: 10%;
+                        }
+
+.col_8_story_rev h5 {   font-size: 14px;
+                        text-transform: uppercase;
+                        margin-top: 2px;
+                        margin-bottom: 2px;}
