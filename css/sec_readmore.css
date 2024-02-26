@@ -1,0 +1,44 @@
+.sec_readmore {                 background-color: var(--black_body);
+                                color: var(--white_off);}
+/* CAROUSEL */
+.col_12_read_carousel {         position: relative;
+                                width: 100%;
+                                overflow: hidden;}
+
+.col_12_read_carousel_container {display: flex; transition: transform 0.5s ease-in-out;}
+
+.col_12_read_carousel_item {    flex: 0 0 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;}
+
+.col_12_read_carousel_controls {display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                margin-top: 1rem;}
+
+#prevBtn,
+#nextBtn {                      font-size: 5px;
+                                font-weight: 700;
+                                color: var(--white_main);
+                                background-color: var(--black_main);
+                                border-radius: 50%; /* Set border-radius to 50% */
+                                padding: 5px;
+                                border: none;
+                                cursor: pointer;
+                                width: 17px; /* Adjust width and height to match your desired button size */
+                                height: 17px;}
+
+.carousel-dots {                display: flex;
+                                justify-content: center;
+                                align-items: center;}
+
+.dot {                          width: 10px;
+                                height: 10px;
+                                background-color: gray;
+                                border-radius: 50%;
+                                margin: 0 5px;
+                                cursor: pointer;}
+
+.active-dot {                   background-color: black;}
+
